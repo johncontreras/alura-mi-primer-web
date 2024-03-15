@@ -1,0 +1,11 @@
+body{
+    background-color: #ccc;
+}
+p {
+    text-align: center;
+}
+h1 {
+background-color: #ddd;
+text-align: center;
+}
+em strong{color: rgb(100, 0, 250);}
