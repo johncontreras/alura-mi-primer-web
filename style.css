@@ -12,3 +12,15 @@ p {
 
 em strong{color: rgb(100, 0, 250);}
 #mision{font-size: 1.5rem;}
+#diferenciales{
+    padding: 30px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+#diferenciales img{
+    width: 50%;
+}
