@@ -1,11 +1,14 @@
 body{
     background-color: #ccc;
 }
+#banner{width: 100%;}
+h1 {
+    background-color: #ddd;
+    text-align: center;
+    }
 p {
     text-align: center;
 }
-h1 {
-background-color: #ddd;
-text-align: center;
-}
+
 em strong{color: rgb(100, 0, 250);}
+#mision{font-size: 1.5rem;}
