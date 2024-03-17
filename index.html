@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbería Alura</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@0300&display=swap" rel="stylesheet">
+    <meta name="description" content="Barbería Alura: Proyecto de Alura y Oracle One." />
+
+    <link rel="canonical" href="/index.html" />
 </head>
+
 <body>
 
-    <div id="principal">
-    <img id="banner" src="images/banner.webp">
-    <h1>Sobre la Barbería Alura</h1>
+    <header>
+        <div class="header-container">
+            <h1><img src="images/logo.png" alt="Logo Barbería Alura" title="Barbería Alura"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img class="banner" src="images/banner.webp" alt="Logo de Alura">
+    <main>
+        <section class="principal">
 
-   
+            <h1 class="titulo-principal">Sobre la Barbería Alura</h1>
+            <img class="utensilios" src="images/utensilios.jpg" alt="Utencilios de un barbero">
 
-    <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de
+                mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y
+                conquista nuevos clientes diariamente.</p>
 
-    <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
+            <p class="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
+                        clientes".</strong></em></p>
 
-    <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
-</div>
-<div id="diferenciales">
-    <h1>Nuestros Diferenciales</h1>
-    <ul>
-        <li>Lorem ipsum dolor sit</li>
-        <li>Lorem ipsum dolor sit</li>
-        <li>Lorem ipsum dolor sit</li>
-        <li>Lorem ipsum dolor sit</li>
-    </ul>
-    <image src="images/diferenciales.webp">
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el
+                mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un
+                padrón de excelencia y agilidad, garantizando calidad y de nuestros clientes.</p>
+        </section>
+        <section class="mapa">
+            <h2 class="titulo-principal">Nuestra Ubicacion</h2>
+            <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+            <div class="mapa-contenido">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.1719948728387!2d-76.95773232429849!3d-12.03167738820393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c428d36810d7%3A0x5690ca9bca1bb6cf!2sLas%20Avellanas%2C%20Lima%2015011!5e0!3m2!1sen!2spe!4v1710632142848!5m2!1sen!2spe"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="diferenciales">
+            <h2 class="titulo-principal">Nuestros Diferenciales</h2>
+            <div class="contenido-diferenciales">
+                <ul class="lista-diferenciales">
+                    <li class="items">Lorem ipsum dolor sit</li>
+                    <li class="items">Lorem ipsum dolor sit</li>
+                    <li class="items">Lorem ipsum dolor sit</li>
+                    <li class="items">Lorem ipsum dolor sit</li>
+                </ul>
+                <image class="img-diferenciales" src="images/diferenciales.webp" alt="producto diferencial">
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/3LqCZ2EpCH8?si=QxsqjUqqv73hbiMT"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
 
-</div>
+
+
+    <footer>
+        <img src="images/logo-blanco.png" alt="Barbería Alura">
+        <p class="copyright">&copy Copyright Barbería Alura</p>
+    </footer>
 </body>
+
 </html>
